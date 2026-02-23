@@ -36,7 +36,7 @@ function ListPage() {
         toast.error("Xoá thất bại");
       };
     }
-  };
+  };;
 
   return (
     <div className="p-6">
