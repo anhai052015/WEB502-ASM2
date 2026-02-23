@@ -1,0 +1,12 @@
+{
+  "movies": [
+    {
+     "id": 1,
+     "title": "Mưa Đỏ",
+     "poster": "https://example.com/mua-do.jpg ",
+     "duration": 120,
+     "category": "Hành động  "
+    }
+  ],
+  "users": []
+}
