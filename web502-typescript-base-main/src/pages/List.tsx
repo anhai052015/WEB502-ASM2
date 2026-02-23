@@ -34,7 +34,7 @@ function ListPage() {
         toast.success("Xoá thành công");
       } catch (error) {
         toast.error("Xoá thất bại");
-      }
+      };
     }
   };
 
