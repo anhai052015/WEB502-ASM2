@@ -24,7 +24,7 @@ function EditPage() {
   useEffect(() => {
     const getDetail = async () => {
       try {
-        const { data } = await axios.get(`http://localhost:3000/movies/${id}`);
+        const { data } = await axios.get(`http://localhost:3000/m-ovies/${id}`);
         reset(data); // Đổ dữ liệu vào form
       } catch (error) {
         toast.error("Không tìm thấy phim!");
